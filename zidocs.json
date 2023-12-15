@@ -1,8 +1,8 @@
 {
   "name": "Zidocs",
   "logo": {
-    "dark": "/logo/dark.png",
-    "light": "/logo/light.png"
+    "dark": "/logo/Chamber-logo.png",
+    "light": "/logo/Chamber-logo.png"
   },
   "favicon": "/logo.png",
   "colors": {
@@ -13,32 +13,19 @@
       "dark": "#020A0D"
     }
   },
-  "tabs": [
-    {
-      "name": "Writing Content",
-      "groups": ["Writing Content", "Organization Components","Context Components"]
-    }
-  ],
   "navigation": [
     {
+      "group": "Why use Chamber?",
+      "pages": [
+        "Motivation"
+      ]
+    },
+    {
       "group": "Getting Started",
-      "pages": ["quickstart", "development"]
-    },
-    {
-      "group": "Styling",
-      "pages": ["settings/global", "settings/navigation"]
-    },
-    {
-      "group": "Writing Content",
-      "pages": ["content/page", "content/text", "content/image-embeds","content/code", "content/list-table", "content/reusable-snippets"]
-    },
-    {
-      "group": "Organization Components",
-      "pages": ["content/components/accordion", "content/components/accordion-group", "content/components/card", "content/components/card-group", "content/components/steps"]
-    },
-    {
-      "group": "Context Components",
-      "pages": ["content/components/callouts", "content/components/code", "content/components/code-group", "content/components/image"]
+      "pages": [
+        "Installation",
+        "Usage"
+      ]
     }
   ]
 }

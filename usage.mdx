@@ -1,0 +1,46 @@
+---
+title: Usage
+description: "Quick usage examples of all Chamber methods"
+---
+
+# Main methods
+
+Here's a quick guide to using Chamber in your app:
+
+## Logging Messages
+
+This method stores your messages and associate them with a key.
+
+```dart
+Chamber.log("User logged in successfully", "auth");
+Chamber.log("This is a general log message"); // Defaults to "general" key.
+```
+
+## Retrieving Logs
+
+This method retrieves your messages. You can get all of them by leaving the `key` parameter as `null`.
+
+```dart
+List<String> authLogs = Chamber.get("auth");
+List<String> generalLogs = Chamber.get();
+```
+
+## Clearing Logs
+
+This method clears your messages. You can also clear all of them by leaving the `key` parameter as `null`.
+
+```dart
+Chamber.clear("auth"); // Clears only 'auth' logs.
+Chamber.clear(); // Clears all logs.
+```
+
+## Displaying Logs
+
+This method pops up a dialog in your app with the log messages. You can use the `key` parameter to display only specific ones.
+
+```dart
+Chamber.clear("auth"); // Clears only 'auth' logs.
+Chamber.clear(); // Clears all logs.
+```
+
+# Optional configs

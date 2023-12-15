@@ -1,0 +1,18 @@
+---
+title: Motivation
+description: "Production apps can be harder to track without a console terminal."
+---
+
+Debugging Flutter apps have never been a problem to me, untill I faced an edge case that would only show up on the production app.
+
+My first aproach was to add a lot of logs on my code to check what was going on, and then I thought about _"Why can't I check this logs on production enviroment?"_
+
+## Solution
+
+To solve this, I implemented a simple package that handles the storage of this log messages and displays it as a dialog when called. Check the following image to understand how it works.
+
+It consist just of a _ListView_ displaying the last added messages.
+
+## Development
+
+You know... it's 2023, of course I used ChatGPT-4 to help me develop the concept and make security and perfomance improvements.
