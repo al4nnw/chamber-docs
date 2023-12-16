@@ -1,5 +1,5 @@
 {
-  "name": "Zidocs",
+  "name": "Chamber",
   "logo": {
     "dark": "/logo/Chamber-logo.png",
     "light": "/logo/Chamber-logo.png"
@@ -13,6 +13,15 @@
       "dark": "#020A0D"
     }
   },
+  "tabs": [
+    {
+      "name": "Documentation",
+      "groups": [
+        "Why use Chamber?",
+        "Getting Started"
+      ]
+    }
+  ],
   "navigation": [
     {
       "group": "Why use Chamber?",
