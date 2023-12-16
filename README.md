@@ -9,7 +9,7 @@ Click on `Use this template` to copy the Zidocs starter kit. The starter kit con
 
 ### Development
 
-Install the [Zidocs CLI](https://www.npmjs.com/package/zidocs) to preview the documentation changes locally. To install, use the following command
+Install the [Zidocs CLI](https://www.npmjs.com/package/zidocs) to preview the documentation changes locally. To install, use the following command.
 
 ```
 npm i -g zidocs
